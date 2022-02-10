@@ -5,7 +5,7 @@ const removeFromArray = function (array, ...list) {
     // Then through each of the optional arguments
     for (let j = 0; j < list.length; j++) {
       console.log(array[i], list[j]); // Verify if it's checking everything
-      if (array[i] == list[j]) {
+      if (array[i] === list[j]) {
         let index = array.indexOf(list[i]); // find the index of argument
         // don't splice if it's not valid
         if (index !== -1) {
