@@ -15,7 +15,7 @@ const removeFromArray = function (array, ...list) {
     }
   }
 
-  return array;
+  return array; // test
 };
 
 // Do not edit below this line
